@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import AddAsset from './components/AddAsset';
@@ -14,24 +14,14 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/add-asset">
-            <AddAsset />
-          </Route>
-          <Route path="/view-assets">
-            <ViewAssets />
-          </Route>
-          <Route path="/reports">
-            <Reports />
-          </Route>
-          <Route path="/notifications">
-            <Notifications />
-          </Route>
-          <Route path="/settings">
-            <Settings />
-          </Route>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/add-asset" element={<AddAsset />} />
+          <Route path="/view-assets" element={<ViewAssets />} />
+          <Route path="/reports" element={<Reports />} />
+          <Route path="/notifications" element={<Notifications />} />
+          <Route path="/settings" element={<Settings />} />
+        </Routes>
         <Footer />
       </div>
     </Router>

@@ -1,18 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './pages/Home';
-import AddAsset from './pages/AddAsset';
-import ViewAssets from './pages/ViewAssets';
-import Reports from './pages/Reports';
-import Notifications from './pages/Notifications';
-import Settings from './pages/Settings';
+import Home from './components/Home';
+import AddAsset from './components/AddAsset';
+import ViewAssets from './components/ViewAssets';
+import Reports from './components/Reports';
+import Notifications from './components/Notifications';
+import Settings from './components/Settings';
 import Footer from './components/Footer';
 
 // Import CSS files
-import 'styles/Header.css';
-import 'styles/home.css';
-import 'styles/addAsset.css';
+import './styles/Header.css';
+import './styles/Footer.css';
+//import './styles/addAsset.css';
 // Import other CSS files as needed
 
 function App() {

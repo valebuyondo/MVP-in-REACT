@@ -14,7 +14,6 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Switch>
           <Route exact path="/">
             <Home />
           </Route>
@@ -33,7 +32,6 @@ function App() {
           <Route path="/settings">
             <Settings />
           </Route>
-        </Switch>
         <Footer />
       </div>
     </Router>

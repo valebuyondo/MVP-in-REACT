@@ -10,5 +10,4 @@ const AddAsset = () => {
     </div>
   );
 };
-
 export default AddAsset;

@@ -10,9 +10,9 @@ import Settings from './pages/Settings';
 import Footer from './components/Footer';
 
 // Import CSS files
-import './styles/header.css';
-import './styles/home.css';
-import './styles/addAsset.css';
+import 'styles/Header.css';
+import 'styles/home.css';
+import 'styles/addAsset.css';
 // Import other CSS files as needed
 
 function App() {

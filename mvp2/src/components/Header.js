@@ -12,7 +12,7 @@ const Header = () => {
           <li><a href="#">Home</a></li>
           <li><a href="#">Add Asset</a></li>
           <li><a href="#">View Assets</a></li>
-          {/* Add more navigation links as needed */}
+          {/* Add more navigation */}
         </ul>
       </nav>
     </header>
